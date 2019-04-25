@@ -1,69 +1,37 @@
 body{
-    font-family: Nunito;
-    background-image: url("../images/bg.png");
-    width: 100%;
-    position: absolute;
-    background-repeat: no-repeat;
-    font-weight: 500;
-}
-
-.container .col-lg-5{
-    top: 24vh;
-    margin: 0 auto;
+    font-family: Cute Font;
+    background-color: #424242;
+    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
 }
 
 .card{
-    border-radius: 2px;
+    background: #323232;
+    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+    border-radius: 3px;
     border: 0;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23)
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.2s all ease;
 }
 
-.card h5 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom:0;
-    color: #666;
-    padding: 16px 16px 0 16px;
+h1,h2,h3,h4,h5,h6,a,p{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23)
+}
+
+hr{
+    background: #cccccc;
+    opacity: 0.5;
 }
 
 a, a:hover{
-    font-size: 15px;
-    color: steelblue;
-    font-weight: 600;
     text-decoration: none;
     transition: 0.2s all ease;
 }
 
 a:hover{
-    color: #666666;
-}
-
-i{
-    margin: auto 8px;
-    color: steelblue;
-    font-size: 28px;
-    transition: 0.2s all ease;
-}
-
-p{
-    font-size: 14px;
-    font-weight: 600;
-    color:#666;
-}
-
-i:hover{
-    color:#666666;
-}
-
-span{
-    cursor: pointer;
-    transition: 0.2s all ease;
-}
-
-span:hover{
     color: #4285F4;
-}
-
-.email{
-    padding: 0 16px 16px 16px;
 }
