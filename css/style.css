@@ -1,5 +1,16 @@
+@font-face {
+    font-family: GilroyBold;
+    src: url('../fonts/Gilroy-ExtraBold.otf');
+  }
+
+  @font-face {
+    font-family: GilroyLight;
+    src: url('../fonts/Gilroy-Light.otf');
+  }
+
+
 body{
-    font-family: Cute Font;
+    font-family: GilroyLight;
     background-color: #424242;
     background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
 }
@@ -15,7 +26,12 @@ body{
 
 h1,h2,h3,h4,h5,h6,a,p{
     color: #ffffff;
-    font-weight: 700;
+    font-size: 1em;
+}
+
+h2{
+    font-size: 1.2em;
+    font-family: GilroyBold;
 }
 
 .card:hover{
