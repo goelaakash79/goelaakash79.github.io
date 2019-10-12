@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $("a").on('click', function(event) {
+    $("a").on('click', function(events) {
   
       if (this.hash !== "") {
-        event.preventDefault();
+        events.preventDefault();
   
         var hash = this.hash;
   
