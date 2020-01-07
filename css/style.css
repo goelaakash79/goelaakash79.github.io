@@ -16,9 +16,8 @@
 body {
   font-family: GoogleSansRg;
   background-color: #202326;
-  /* padding-left: 16%;
-  padding-right: 16%; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png"); */
+  overflow-x: hidden;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
 }
 
 .fontBd {
@@ -84,6 +83,10 @@ a,
 a:hover {
   text-decoration: none;
   transition: 0.2s all linear;
+}
+
+.not-white {
+    color: #3c83da;
 }
 
 a:hover {
