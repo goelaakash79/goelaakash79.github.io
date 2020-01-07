@@ -1,53 +1,96 @@
 @font-face {
-    font-family: GilroyBold;
-    src: url('../fonts/Gilroy-ExtraBold.otf');
-  }
-
-  @font-face {
-    font-family: GilroyLight;
-    src: url('../fonts/Gilroy-Light.otf');
-  }
-
-
-body{
-    font-family: GilroyLight;
-    background-color: #424242;
-    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  font-family: GoogleSansBd;
+  src: url("../fonts/GoogleSansDisplay-Bold-v1.27.ttf");
 }
 
-.card{
-    background: #323232;
-    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
-    border-radius: 3px;
-    border: 0;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-    transition: 0.2s all ease;
+@font-face {
+  font-family: GoogleSansRg;
+  src: url("../fonts/GoogleSansDisplay-Regular-v1.27.ttf");
 }
 
-h1,h2,h3,h4,h5,h6,a,p{
-    color: #ffffff;
-    font-size: 1em;
+@font-face {
+  font-family: GoogleSansMd;
+  src: url("../fonts/GoogleSansDisplay-Medium-v1.27.ttf");
 }
 
-h2{
-    font-size: 1.2em;
-    font-family: GilroyBold;
+body {
+  font-family: GoogleSansRg;
+  background-color: #202326;
+  /* padding-left: 16%;
+  padding-right: 16%; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png"); */
 }
 
-.card:hover{
-    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23)
+.fontBd {
+  font-family: GoogleSansBd;
 }
 
-hr{
-    background: #cccccc;
-    opacity: 0.5;
+.fontMd {
+  font-family: GoogleSansMd;
 }
 
-a, a:hover{
-    text-decoration: none;
-    transition: 0.2s all ease;
+.fontRG {
+  font-family: GoogleSansRg;
 }
 
-a:hover{
-    color: #4285F4;
+.top-section {
+  padding-top: 10%;
+}
+
+.card {
+  background: #323232;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s all ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  color: #ffffff;
+}
+
+.download-resume {
+  padding: 12px 24px;
+  background: #3c83da;
+  transition: 0.2s all linear;
+}
+
+.download-resume:hover {
+  background: #d5d5d5;
+  color: #3c83da;
+}
+
+.social-section {
+  float: right;
+}
+
+.social-section a {
+    margin-right: 24px;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: 0.2s all linear;
+}
+
+a:hover {
+  color: #3c83da;
+}
+
+.fa:hover {
+    transition: 0.2s all linear;
+    color: #3c83da!important;
 }
