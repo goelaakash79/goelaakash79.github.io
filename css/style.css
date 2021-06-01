@@ -115,3 +115,8 @@ a:hover {
 .highlight {
   color: #FFD479;
 }
+
+.subtext {
+  color: #d5d5d5;
+  font-weight: 400!important;
+}
