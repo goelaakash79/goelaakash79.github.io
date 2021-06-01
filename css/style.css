@@ -1,35 +1,25 @@
-@font-face {
-  font-family: GoogleSansBd;
-  src: url("../fonts/GoogleSansDisplay-Bold-v1.27.ttf");
-}
-
-@font-face {
-  font-family: GoogleSansRg;
-  src: url("../fonts/GoogleSansDisplay-Regular-v1.27.ttf");
-}
-
-@font-face {
-  font-family: GoogleSansMd;
-  src: url("../fonts/GoogleSansDisplay-Medium-v1.27.ttf");
-}
 
 body {
-  font-family: GoogleSansRg;
-  background-color: #202326;
+  font-family: DM Sans;
+  background-color: #15202B;
   overflow-x: hidden;
   background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
 }
 
+.emoji {
+  font-size: 64px;
+}
+
 .fontBd {
-  font-family: GoogleSansBd;
+  font-weight: 700;
 }
 
 .fontMd {
-  font-family: GoogleSansMd;
+  font-weight: 500;
 }
 
 .fontRG {
-  font-family: GoogleSansRg;
+  font-weight: 400;
 }
 
 .top-section {
@@ -58,13 +48,16 @@ p {
 
 .download-resume {
   padding: 12px 24px;
-  background: #3c83da;
+  background: #FFD479;
+  color: #202124;
   transition: 0.2s all linear;
+  border-radius: 0px;
 }
 
 .download-resume:hover {
-  background: #d5d5d5;
-  color: #3c83da;
+  border: 1px solid #FFD479;
+  background: #15202B;
+  color: #FFD479;
 }
 
 .social-section {
@@ -86,14 +79,29 @@ a:hover {
 }
 
 .not-white {
-    color: #3c83da;
+    color: #FFD479;
 }
 
 a:hover {
-  color: #3c83da;
+  color: #FFD479;
 }
 
 .fa:hover {
     transition: 0.2s all linear;
-    color: #3c83da!important;
+    color: #FFD479!important;
+}
+
+.borderbox {
+  height: 4px;
+  width: 80px;
+  background-color: #FFD479;
+  border-radius: 2px;
+}
+
+.space-40 {
+  height: 40px;
+}
+
+.highlight {
+  color: #FFD479;
 }
