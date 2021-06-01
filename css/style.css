@@ -26,13 +26,19 @@ body {
   padding-top: 10%;
 }
 
-.card {
-  background: #323232;
-  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
-  border-radius: 3px;
+.card-custom {
+  border-radius: 4px;
   border: 0;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.2s all ease;
+}
+
+.card-custom img {
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23); */
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 4px;
+  transition: 0.2s all ease;
+
 }
 
 h1,
@@ -68,7 +74,7 @@ p {
     margin-right: 24px;
 }
 
-.card:hover {
+.card-custom img:hover {
   box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23);
 }
 
@@ -98,8 +104,12 @@ a:hover {
   border-radius: 2px;
 }
 
-.space-40 {
-  height: 40px;
+.space-48 {
+  height: 48px;
+}
+
+.space-60 {
+  height: 80px;
 }
 
 .highlight {
