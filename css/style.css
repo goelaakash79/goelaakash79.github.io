@@ -10,7 +10,7 @@ body {
 .emoji {
   font-size: 64px;
   transition: 0.2s all ease;
-  cursor: pointer;
+  /* cursor: pointer; */
   animation-name: wave-animation;  
   animation-duration: 2.5s;        
   animation-iteration-count: infinite; 
@@ -72,6 +72,17 @@ p {
   color: #ffffff;
   /* user-select: none; */
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  user-select: none;
+}
+
 
 .download-resume {
   padding: 12px 24px;
