@@ -1,7 +1,7 @@
 
 body {
   font-family: DM Sans;
-  background-color: #15202B;
+  background-color: #000000;
   overflow-x: hidden;
   background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
   /* cursor: crosshair; */
@@ -87,7 +87,7 @@ p {
 .download-resume {
   padding: 12px 24px;
   background: #FFD479;
-  color: #202124;
+  color: #000000;
   transition: 0.2s all linear;
   border-radius: 0px;
   box-shadow: 0 0 0 #FFD479;
@@ -95,7 +95,7 @@ p {
 
 .download-resume:hover {
   border: 1px solid #FFD479;
-  background: #15202B;
+  background: #000000;
   color: #FFD479;
   box-shadow: 0.4rem 0.4rem 0 #FFD479;
   transform: translate(-0.4rem, -0.4rem);
@@ -137,6 +137,7 @@ a:hover {
   width: 80px;
   background-color: #FFD479;
   border-radius: 2px;
+  margin-bottom: 20px;
 }
 
 .space-48 {
