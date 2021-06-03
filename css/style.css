@@ -52,15 +52,6 @@ body {
   transition: 0.2s all ease;
 }
 
-.card-custom img {
-  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23); */
-  margin-bottom: 20px;
-  width: 100%;
-  border-radius: 4px;
-  transition: 0.2s all ease;
-
-}
-
 h1,
 h2,
 h3,
@@ -111,13 +102,15 @@ p {
 
 .card-custom img {
   border-radius: 0.2rem;
-  transition: 0.4s all ease-out;
+  margin-bottom: 20px;
+  width: 100%;
+  transition: 0.8s all ease-out;
 }
 
 .card-custom img:hover {
   box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23);
-  transform: perspective(3000px) rotateY(8deg) rotateX(4deg);
-  transition: 0.4s all ease-out;
+  transform: perspective(3000px) rotateY(8deg);
+  transition: 0.8s all ease-out;
 }
 
 a,
