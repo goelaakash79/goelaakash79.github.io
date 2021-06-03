@@ -109,8 +109,15 @@ p {
     margin-right: 24px;
 }
 
+.card-custom img {
+  border-radius: 0.2rem;
+  transition: 0.4s all ease-out;
+}
+
 .card-custom img:hover {
   box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.16), 0px 5px 10px rgba(0, 0, 0, 0.23);
+  transform: perspective(3000px) rotateY(8deg) rotateX(4deg);
+  transition: 0.4s all ease-out;
 }
 
 a,
